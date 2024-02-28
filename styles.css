@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Veranda', sans-serif;
+}
+/* Navigation Bar CSS ---------------------------- */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+nav.sticky {
+    padding: 15px 20px;
+    background: #FAFAFA;
+    color: black;
+    box-shadow: 0;
+}
+
+nav .nav-content {
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    font-weight: 500;
+    font-size: 35px;
+    color: cadetblue;
+}
+
+.nav-content .nav-links {
+    display: flex;
+}
+
+.nav-content .nav-links li {
+    list-style: none;
+    margin: 0 8px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #0E2431;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: cadetblue;
+}
+
+nav.sticky .nav-links li a {
+    color: black;
+    transition: all 0.4s ease;
+}
+
+nav.sticky .nav-links li a:hover {
+    color: #0E2431;
+}
+
+.nav-content .logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.nav-content .logo a {
+    font-weight: 500;
+    font-size: 35px;
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo a {
+    font-weight: 500;
+    font-size: 35px;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+/* Body CSS ---------------------------- */
+
+.section {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background: url("images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #FAFAFA;
+    font-family: 'Ubuntu', sans-serif;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.main-container{
+    display: flex;
+    align-items: center;}
+
+.circle-container {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;}
+
+.circle-container img {
+    width: 100%;
+    height: auto;
+    display: block;}
+
+.word-container{
+    max-width: 400px;}
+
+.main-heading{
+    font-size: 65px;
+    color:black}
+
+.subheading{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 6px;}
+
+.text {
+    text-align: justify;
+    padding: 40px 80px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);}
+ 
+/* About Me CSS ---------------------------- */
+.about-me {
+    height: 100vh;
+    width: 100%;
+    background: url("images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:#F0F0F0;
+    font-family: 'Ubuntu', sans-serif;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Used ChatGPT to help me style this carousel, but then made major modifications to fit the vibe of my site */
+.carousel {
+    width: 100%}
+
+.carousel-inner {
+    text-align: center;}
+
+.carousel-item img {
+    width: 100%;
+    max-height: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    color: #007BFF;}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: #0056b3;}
+
+.carousel-indicators {
+    bottom: -30px;}
+
+
+/* Contact Me CSS ---------------------------- */
+.contact-me {
+    height: 50vh;
+    width: 100%;
+    background: url("images/background.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #FAFAFA;
+    font-family: 'Ubuntu', sans-serif;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+footer {
+    border-radius: 1px;
+    background-color: #FAFAFA;
+    color: black;
+    font-size: small;
+    padding: 20px 0;
+}
+
+
