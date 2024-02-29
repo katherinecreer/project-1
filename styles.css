@@ -149,13 +149,54 @@ nav.sticky .nav-links li a:hover {
 .subheading{
     font-size: 15px;
     color: black;
-    margin-bottom: 6px;}
+    margin-bottom: 6px;
+    margin-left: 8px;}
 
 .text {
     text-align: justify;
     padding: 40px 80px;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);}
+
+/* DROPDOWN CSS ------------------------------------- */
+
+.drop-down-optional-task{
+    background-color: #F0F0F0;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dropdown-list{
+    background-color: #F0F0F0;
+    color: hotpink;
+    padding: 1px;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-options{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
  
+.dropdown-options a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.drop-down-optional-task:hover .dropdown-options {
+    display: block;}
+
 /* About Me CSS ---------------------------- */
 .about-me {
     height: auto;
