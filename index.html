@@ -9,6 +9,10 @@
         <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"></script>
+    <!--Added Google Font connection here-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -17,19 +21,19 @@
         <nav>
             <div class="nav-content">
                 <div class="logo">
-                    <img src="pink_logo.png" alt="website logo">
-                    <a href="#">Katherine Creer</a>
+                    <img src="K logo.png" alt="website logo">
+                    <a href="#"><h1 style="color: black;">Katherine Creer</h1></a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about-me">About</a></li>
-                    <li><a href="#contact-me">Contact Information</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#cards">Contact Information</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <body>
         <section id="home" class="home">
             <div class="main-container">
                 <div class="circle-container">
@@ -45,7 +49,8 @@
                         <button class="dropdown-list">Where would you like to go next?</button>
                         <div class="dropdown-options">
                             <a href ="#about-me">About Me!</a>
-                            <a href="#contact-me">Contact Me!</a>
+                            <a href="#resume">Resume</a>
+                            <a href = "#cards">Contact me!</a>
                         </div>
                     </div>
 
@@ -55,6 +60,9 @@
 
         <!--About Me Section-------------------------------------------->
         <section id="about-me" class="about-me">
+            <div class="learn-more">
+                <h1>Learn More About Me</h1>
+            <div>
             <div class="about-me-main-container">
                 <div class="carousel">
                     <div class="carousel-item">
@@ -83,43 +91,14 @@
                         <button onclick="nextSlide()">❯</button>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!--Card Section--------------------------------->
-        <section id="cards" class="vh-100">
-            <div class="row d-flex align-items-center justify-content-around h-100">
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">I ll</p>
-                        </div>
-                        </div>
-                </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        </div>
-                </div>
-                <div class="col-3">
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        </div>
                 </div>
             </div>
         </section>
 
         <!--Resume Section--------------------------->
-        <section id="contact-me" class="contact-me">
-            <div class = "container">
-                <h2 style="color: hotpink;">Katherine Creer's Resume</h2>
+        <section id="resume" class="resume" style="margin-bottom: 50px;">
+            <div class="container">
+                <h1 style="color: hotpink; margin-top: 65px;">Katherine Creer's Resume</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item border gray">
                         <h2 class="accordion-header">
@@ -221,6 +200,45 @@
             </div>
         </section>
 
+        <!--Card Section--------------------------------->
+        <section id="cards" class="vh-80" style="background-color: #F0F0F0; padding-top: 45px; padding-bottom: 50px;">
+            <h1 style="color: hotpink; padding-left: 85px;">Lets Get in Contact!</h1>
+            <div class="row d-flex align-items-center justify-content-around h-100">
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="phone1.png" class="card-img-top" alt="phone ">
+                        <div class="card-body">
+                            <h1>Phone</h1>
+                            <p class="card-text">I respond quickest to phone calls!
+                                (509) 619-2321
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="linkedin2.png" class="card-img-top" alt="linkedin-logo">
+                        <div class="card-body">
+                            <h1>LinkedIn</h1>
+                            <p class="card-text">Let's connect on LinkedIn!
+                                @katherinecreer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="email.png" class="card-img-top" alt="email">
+                        <div class="card-body">
+                            <h1>Email</h1>
+                            <p class="card-text">Send me an email to chat!
+                                katherinecreer@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <script>
             let nav = document.querySelector("nav");
             window.onscroll = function () {
@@ -249,7 +267,7 @@
 </body>
 <footer>
     <div class="footer-content">
-        <p>&copy; 2024 by Katherine Creer. All rights reserved.</p>
+        <p>&copy;2024 by Katherine Creer. All rights reserved.</p>
     </div>
 </footer>
 </html>

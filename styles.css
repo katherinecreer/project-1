@@ -3,8 +3,15 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Veranda', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: hotpink
+}
+
+
 /* Navigation Bar CSS ---------------------------- */
 
 nav {
@@ -26,6 +33,7 @@ nav.sticky {
 
 nav .nav-content {
     height: 100%;
+    font-family: 'Raleway', sans-serif;
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -88,7 +96,7 @@ nav.sticky .nav-links li a:hover {
 }
 
 .logo img {
-    width: 40px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
     margin-right: 10px;
@@ -220,6 +228,10 @@ nav.sticky .nav-links li a:hover {
     margin: 0 auto;
 }
 
+.learn-more{
+    margin-left: 110px;
+}
+
 .carousel {
     position: relative;
     border-radius: 10px;
@@ -265,6 +277,8 @@ nav.sticky .nav-links li a:hover {
     left: 0;
     right: 0;
     margin-top: 300px;
+    margin-left: -30px;
+    margin-right: -30px;
     display: flex;
     justify-content: space-between;
 }
@@ -277,6 +291,7 @@ nav.sticky .nav-links li a:hover {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    margin: -30px;
 }
 
 .carousel-nav button:hover {
@@ -285,29 +300,32 @@ nav.sticky .nav-links li a:hover {
 
 
 /* Contact Me CSS ---------------------------- */
-.contact-me {
-    height: 50vh;
+/* .resume {
+    height: auto;
     width: 100%;
     background: url("images/background.png") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-color: #FAFAFA;
+    margin-bottom: 45px;
     font-family: 'Ubuntu', sans-serif;
-    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
-
-
+/* Footer CSS */
 footer {
     border-radius: 1px;
     background-color: #FAFAFA;
     color: black;
     font-size: small;
     padding: 20px 0;
+}
+
+.footer-content{
+    margin-left: 20px;
 }
 
