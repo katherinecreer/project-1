@@ -1,3 +1,4 @@
+<!--Kat Creer, March 2nd 2024, github username: katherinecreer-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +8,9 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <!--Added Google Font connection here---------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +25,9 @@
             <div class="nav-content">
                 <div class="logo">
                     <img src="K logo.png" alt="website logo">
-                    <a href="#"><h1 class="text-dark">Katherine Creer</h1></a>
+                    <a href="#">
+                        <h1 class="text-dark">Katherine Creer</h1>
+                    </a>
                 </div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -35,144 +38,157 @@
             </div>
         </nav>
     </header>
-        <!--Home Landing Page-------------------------->
-        <section id="home" class="home text-center">
-            <div class="main-container">
-                <div class="circle-container">
-                    <img src="Katherine_Creer.JPG" alt="image of the author">
-                </div>
-                <div class="word-container">
-                    <h1 class="main-heading">Welcome</h1>
-                    <br>
-                    <h2 class="subheading">I am so glad you are here!</h2>
-                        <h3 class="subsubheading">This site will help you get to know me a little better. I look forward to connecting and sharing my experiences with you!</h3>
+    <!--Home Landing Page-------------------------->
+    <section id="home" class="home text-center">
+        <div class="main-container">
+            <div class="circle-container">
+                <img src="Katherine_Creer.JPG" alt="image of the author">
+            </div>
+            <div class="word-container">
+                <h1 class="main-heading">Welcome</h1>
+                <br>
+                <h2 class="subheading">I am so glad you are here!</h2>
+                <h3 class="subsubheading">This site will help you get to know me a little better. I look forward to
+                    connecting and sharing my experiences with you!</h3>
 
-                    <!--Dropdown menu here----------------------->
-                    <div class="drop-down-optional-task">
-                        <button class="dropdown-list btn">Where would you like to go next?</button>
-                        <div class="dropdown-options">
-                            <a href ="#about-me">About Me!</a>
-                            <a href="#resume">Resume</a>
-                            <a href = "#cards">Contact me!</a>
-                        </div>
+                <!--Dropdown menu here----------------------->
+                <div class="drop-down-optional-task">
+                    <button class="dropdown-list btn">Where would you like to go next?</button>
+                    <div class="dropdown-options">
+                        <a href="#about-me">About Me!</a>
+                        <a href="#resume">Resume</a>
+                        <a href="#cards">Contact me!</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!--About Me Section-------------------------------------------->
-        <section id="about-me" class="about-me">
-            <div class="learn-more">
-                <h1>Learn More About Me</h1>
+    <!--About Me Section-------------------------------------------->
+    <section id="about-me" class="about-me">
+        <div class="learn-more">
+            <h1>Learn More About Me</h1>
             <div>
-            <div class="about-me-main-container">
-                <div class="carousel">
-                    <div class="carousel-item">
-                        <img src="BYU-logo.png" alt="BYU-logo">
-                        <div class="carousel-text">
-                            <p>I attend Brigham Young University and am studying Information Systems, with a minor in Political Strategy!</p>
-                        </div>
-                    </div>
-                
-                    <div class="carousel-item">
-                        <img src="Mt-Rainier.jpeg" alt="Mt-Rainier">
-                        <div class="carousel-text">
-                            <p>I grew up in Washington State and love to explore the many mountains there!</p>
-                        </div>
-                    </div>
-                
-                    <div class="carousel-item">
-                        <img src="San-Diego-Temple.jpeg" alt="San-Diego-Temple">
-                        <div class="carousel-text">
-                            <p>I served a mission in San Diego, California and it was a dream!</p>
-                        </div>
-                    </div>
-                
-                    <div class="carousel-nav">
-                        <button onclick="prevSlide()">❮</button>
-                        <button onclick="nextSlide()">❯</button>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Resume Section--------------------------->
-        <section id="resume" class="resume" style="margin-bottom: 50px;">
-            <div class="container">
-                <h1 style="color: hotpink; margin-top: 65px; text-align: center;">Katherine Creer's Resume</h1>
-                <div class="accordion" id="accordionExample">
-
-                    <div class="accordion-item border gray">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button fw-bold custom-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                aria-expanded="true" aria-controls="collapseOne">
-                                Education Experience
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>Brigham Young University — Marriott School of Business</strong> 
-                                <br>
-                                <span class="fst-italic">Bachelor of Science in Information Systems — Minor in Political Strategy</span>
-                                <br>
-                                <p style="font-size: 12px;">Relevant coursework in Information Systems, Computer Science, Marketing, Accounting, Entrepreneurship, & Finance</p>
-                                <br>
-                                <strong>Richland High School</strong>
-                                <br>
-                                <span class="fst-italic">Valedictorian</span>
-                                <br>
-                                <p style="font-size: 12px;">High involvement in student government, leadership activities, varsity athletics, and a commitment to academics,
-                                resulting in the reward of scholarships fully funding undergraduate education</p>
+                <div class="about-me-main-container">
+                    <div class="carousel">
+                        <div class="carousel-item">
+                            <img src="BYU-logo.png" alt="BYU-logo">
+                            <div class="carousel-text">
+                                <p>I attend Brigham Young University and am studying Information Systems, with a minor
+                                    in Political Strategy!</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="accordion-item border gray">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                aria-expanded="true" aria-controls="collapseTwo">
-                                    Work Experience
-                                </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>The Church of Jesus Christ of Latter-day Saints</strong> 
-                                <br>
-                                <span class="fst-italic">Technology Solution Consultant</span>
-                                <br>
-                                <ul style="font-size: 12px;">
-                                    <li>Contribute as 1 of 4 members of an internal consulting team, responsible for driving efficiency across 9 departments</li>
-                                    <li>Acting project manager for the development of 2 software applications, both currently used by 100’s of end users</li>
-                                    <li>Create low-code solutions using the Microsoft Power Platform, SQL, Python, and Tableau</li>
-                                    <li>Analyze current workflows and suggest minimum viable products to enhance effectiveness and streamline operations</li>
-                                </ul>
-                                <br>
-                                <strong>Missionary Training Center</strong>
-                                <br>
-                                <span class="fst-italic">Training Lead</span>
-                                <br>
-                                <ul style="font-size: 12px;">
-                                    <li>Managed logistical and operational projects interrelated to 5 directors, 19 supervisors, and 25 managers</li>
-                                    <li>Led the transition of all training department materials into Microsoft project management software</li>
-                                    <li>Coordinated logistical scheduling of 100’s of students to teachers weekly</li>
-                                </ul>
-                                <br>
-                                <strong>Northwest Paddleboarding</strong>
-                                <br>
-                                <span class="fst-italic">Customer Experience Support Lead</span>
-                                <br>
-                                <ul style="font-size: 12px;">
-                                    <li>Restructured and assisted in hiring a team of 30+ individuals leading to a 4% increase of revenue</li>
-                                    <li>Managed 1000’s of customer financial records and processed customer adjustments</li>
-                                    <li>Increased efficiency in customer experience by 7 minutes through improvements in computer systems</li>
-                                </ul>
+                        <div class="carousel-item">
+                            <img src="Mt-Rainier.jpeg" alt="Mt-Rainier">
+                            <div class="carousel-text">
+                                <p>I grew up in Washington State and love to explore the many mountains there!</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="San-Diego-Temple.jpeg" alt="San-Diego-Temple">
+                            <div class="carousel-text">
+                                <p>I served a mission in San Diego, California and it was a dream!</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-nav">
+                            <button onclick="prevSlide()">❮</button>
+                            <button onclick="nextSlide()">❯</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--Resume Section--------------------------->
+    <section id="resume" class="resume" style="margin-bottom: 50px;">
+        <div class="container">
+            <h1 style="color: hotpink; margin-top: 65px; text-align: center;">Katherine Creer's Resume</h1>
+            <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item border gray">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold custom-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Education Experience
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Brigham Young University — Marriott School of Business</strong>
+                            <br>
+                            <span class="fst-italic">Bachelor of Science in Information Systems — Minor in Political
+                                Strategy</span>
+                            <br>
+                            <p style="font-size: 12px;">Relevant coursework in Information Systems, Computer Science,
+                                Marketing, Accounting, Entrepreneurship, & Finance</p>
+                            <br>
+                            <strong>Richland High School</strong>
+                            <br>
+                            <span class="fst-italic">Valedictorian</span>
+                            <br>
+                            <p style="font-size: 12px;">High involvement in student government, leadership activities,
+                                varsity athletics, and a commitment to academics,
+                                resulting in the reward of scholarships fully funding undergraduate education</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border gray">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Work Experience
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>The Church of Jesus Christ of Latter-day Saints</strong>
+                            <br>
+                            <span class="fst-italic">Technology Solution Consultant</span>
+                            <br>
+                            <ul style="font-size: 12px;">
+                                <li>Contribute as 1 of 4 members of an internal consulting team, responsible for driving
+                                    efficiency across 9 departments</li>
+                                <li>Acting project manager for the development of 2 software applications, both
+                                    currently used by 100’s of end users</li>
+                                <li>Create low-code solutions using the Microsoft Power Platform, SQL, Python, and
+                                    Tableau</li>
+                                <li>Analyze current workflows and suggest minimum viable products to enhance
+                                    effectiveness and streamline operations</li>
+                            </ul>
+                            <br>
+                            <strong>Missionary Training Center</strong>
+                            <br>
+                            <span class="fst-italic">Training Lead</span>
+                            <br>
+                            <ul style="font-size: 12px;">
+                                <li>Managed logistical and operational projects interrelated to 5 directors, 19
+                                    supervisors, and 25 managers</li>
+                                <li>Led the transition of all training department materials into Microsoft project
+                                    management software</li>
+                                <li>Coordinated logistical scheduling of 100’s of students to teachers weekly</li>
+                            </ul>
+                            <br>
+                            <strong>Northwest Paddleboarding</strong>
+                            <br>
+                            <span class="fst-italic">Customer Experience Support Lead</span>
+                            <br>
+                            <ul style="font-size: 12px;">
+                                <li>Restructured and assisted in hiring a team of 30+ individuals leading to a 4%
+                                    increase of revenue</li>
+                                <li>Managed 1000’s of customer financial records and processed customer adjustments</li>
+                                <li>Increased efficiency in customer experience by 7 minutes through improvements in
+                                    computer systems</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="accordion-item border gray">
                         <h2 class="accordion-header">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                aria-expanded="true" aria-controls="collapseThree">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                                 Volunteer Experience
                             </button>
                         </h2>
@@ -183,8 +199,10 @@
                                 <span class="fst-italic">Volunteer English Class Support</span>
                                 <br>
                                 <ul style="font-size: 12px;">
-                                    <li>Contribute support to a lead teacher in a class of 30 students to manage time and logistical information</li>
-                                    <li>Communicate essential verbal and social skills and answers to non-native English speakers</li>
+                                    <li>Contribute support to a lead teacher in a class of 30 students to manage time
+                                        and logistical information</li>
+                                    <li>Communicate essential verbal and social skills and answers to non-native English
+                                        speakers</li>
                                 </ul>
                                 <br>
                                 <strong>The Church of Jesus Christ of Latter-day Saints</strong>
@@ -192,24 +210,28 @@
                                 <span class="fst-italic">Volunteer Representative</span>
                                 <br>
                                 <ul style="font-size: 12px;">
-                                    <li>Trained 200 volunteer representatives while delivering support and feedback in the Spanish language</li>
-                                    <li>Expanded leadership adaptability and influence while working in a small group of 20</li>
-                                    <li>Served on 6 leadership councils and taught 20+ workshops to heighten productivity and unity among representatives</li>
+                                    <li>Trained 200 volunteer representatives while delivering support and feedback in
+                                        the Spanish language</li>
+                                    <li>Expanded leadership adaptability and influence while working in a small group of
+                                        20</li>
+                                    <li>Served on 6 leadership councils and taught 20+ workshops to heighten
+                                        productivity and unity among representatives</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item border gray">
                         <h2 class="accordion-header">
-                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
-                                aria-expanded="true" aria-controls="collapseFour">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                 A Project I've Been Apart Of
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body d-flex justify-content-center align-items-center">
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JETGRLYxlYE?si=iTB8GnEA3aCL6Ma3"
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/JETGRLYxlYE?si=iTB8GnEA3aCL6Ma3"
                                         title="YouTube video player" frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         allowfullscreen></iframe>
@@ -219,74 +241,80 @@
                     </div>
                 </div>
             </div>
-        </section>
+    </section>
 
-        <!--Lets Get in Contact Section--------------------------------->
-        <section id="cards" class="py-5" style="background-color: #F0F0F0;">
-            <div class="container">
-                <h1 class="text-center mb-5" style="color: hotpink;">Let's Get in Contact!</h1>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="phone1.png" class="card-img-top" alt="phone">
-                            <div class="card-body text-center">
-                                <h1 class="card-title">Phone</h1>
-                                <p class="card-text">I respond quickest to phone calls!
-                                                    (509) 619-2321</p>
-                            </div>
+    <!--Lets Get in Contact Section--------------------------------->
+    <section id="cards" class="py-5" style="background-color: #F0F0F0;">
+        <div class="container">
+            <h1 class="text-center mb-5" style="color: hotpink;">Let's Get in Contact!</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="phone1.png" class="card-img-top" alt="phone">
+                        <div class="card-body text-center">
+                            <h1 class="card-title">Phone</h1>
+                            <p class="card-text">I respond quickest to phone calls!
+                                (509) 619-2321</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="linkedin2.png" class="card-img-top" alt="linkedin-logo">
-                            <div class="card-body text-center">
-                                <h1 class="card-title">LinkedIn</h1>
-                                <p class="card-text">Let's connect on LinkedIn! 
-                                                    @katherinecreer</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="linkedin2.png" class="card-img-top" alt="linkedin-logo">
+                        <div class="card-body text-center">
+                            <h1 class="card-title">LinkedIn</h1>
+                            <p class="card-text">Let's connect on LinkedIn!
+                                @katherinecreer</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="email.png" class="card-img-top" alt="email">
-                            <div class="card-body text-center">
-                                <h1 class="card-title">Email</h1>
-                                <p class="card-text">Send me an email to chat!
-                                                    kreer@gmail.com</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="email.png" class="card-img-top" alt="email">
+                        <div class="card-body text-center">
+                            <h1 class="card-title">Email</h1>
+                            <p class="card-text">Send me an email to chat!
+                                kreer@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <!-- Added this from a ChatGPT response asking how to keeo the navbar in place-->
-        <script>
-            let nav = document.querySelector("nav");
-            window.onscroll = function () {
-                if (document.documentElement.scrollTop > 20) {
-                    nav.classList.add("sticky");
-                } else {
-                    nav.classList.remove("sticky");}}
-        </script>
+    <!-- Added this from a ChatGPT response asking how to keeo the navbar in place-->
+    <script>
+        let nav = document.querySelector("nav");
+        window.onscroll = function () {
+            if (document.documentElement.scrollTop > 20) {
+                nav.classList.add("sticky");
+            } else {
+                nav.classList.remove("sticky");
+            }
+        }
+    </script>
 
-        <!-- Added this from a ChatGPT response asking how to help the buttons I created to work -->
-        <script>
-            let currentSlide = 0;
-            const slides = document.querySelectorAll('.carousel-item');
-            function showSlide(index) {
-                slides.forEach((slide) => {
-                    slide.style.display = 'none';});
-                slides[index].style.display = 'block';}
-            function prevSlide() {
-                currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-                showSlide(currentSlide);}
-            function nextSlide() {
-                currentSlide = (currentSlide + 1) % slides.length;
-                showSlide(currentSlide);}
+    <!-- Added this from a ChatGPT response asking how to help the buttons I created to work -->
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel-item');
+        function showSlide(index) {
+            slides.forEach((slide) => {
+                slide.style.display = 'none';
+            });
+            slides[index].style.display = 'block';
+        }
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
             showSlide(currentSlide);
-        </script>
+        }
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+        showSlide(currentSlide);
+    </script>
 </body>
 
 <footer>
@@ -294,4 +322,5 @@
         <p>&copy;2024 by Katherine Creer. All rights reserved.</p>
     </div>
 </footer>
+
 </html>
